@@ -3,6 +3,7 @@
 
 ## Overview
 This project allows you to translate educational content into various languages. It leverages the `translate` module to provide easy and accurate translations.
+Here i used pycharm to develop the source code.
 
 ## Features
 - Translates text from any language to the target language.
