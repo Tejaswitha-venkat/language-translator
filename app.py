@@ -1,9 +1,7 @@
+
 from translate import Translator
 
-# Initialize the translator
-translator = Translator(to_lang="fr")  # Change 'fr' to your target language code
-
-def translate_text(text, target_language):
+def translate_educational_content(text, target_language):
     try:
         # Initialize the translator with the target language
         translator = Translator(to_lang=target_language)
@@ -24,7 +22,7 @@ text_to_translate = input("Enter the text to translate: ")
 target_lang_code = input("Enter the target language code (e.g., 'fr' for French): ")
 
 # Translate the text
-result = translate_text(text_to_translate, target_lang_code)
+result = translate_educational_content(text_to_translate, target_lang_code)
 
 if isinstance(result, dict):
     print(f"Original text: {result['original_text']}")
